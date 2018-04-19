@@ -1,0 +1,135 @@
+/* style for internet html */
+*{
+    margin: 0px;
+    padding: 0px;
+    /* outline: dotted red; */
+}
+
+/* wrapper  */
+div.wrapper{
+    background-color: palegreen;
+    min-height: 200px;
+    width: 970px;
+    /* padding: 1px; */
+}
+/* main tags style */
+h1{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+h2{
+    color: white;
+    background-color: blue;
+}
+h3{
+    color: white;
+}
+span.redtext{
+    color: red;
+}
+span.bluetext{
+    color: blue;
+}
+
+
+/* top section */
+    div.topsection{
+        background-color: peru;
+        min-height: 100px;
+        width: 970px;
+    }
+        img.globe{
+            height: 60px;
+            width: 60px;
+            display: inline-block;
+        }
+
+
+/* left nav section     */
+    div.leftsection{
+        background-color: rgb(99, 187, 175);
+        min-height: 300px;
+        width: 200px;
+        display: inline-block;
+        vertical-align: top;
+    }
+        div.boxtop{
+            background-color: blueviolet;
+            width: 100%;
+            min-height: 100px;
+            border-bottom: 1px solid black;
+        }
+        div.boxbot{
+            padding-top: 30px;
+            /* background-color: brown; */
+            width: 100%;
+            min-height: 250px;
+            background-image: url('images/ad_background.png');
+            text-align: center;
+        }
+        img.ninja{
+            width:80px;
+            height: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            
+        }
+            button.button1{
+                /* outline: dotted red; */
+                border-radius: 5px;
+                margin-top: 5px;
+                /* margin-top: 20px;
+                margin-left: 38%;
+                margin-right: 20%;
+                padding-left: 10px;
+                padding-right: 10px; */
+                background-color: rgb(0, 60, 128);
+                vertical-align: top;
+                text-align: center;
+                width: 100%;
+                height: 40px;
+                color: white;
+                border: 1px solid black;
+            }
+            button.button2{
+                margin-top: 5px;
+                margin-bottom: 15px;
+                border-radius: 5px;
+                background-color: orange;
+                width: 100%;
+                height: 40px;
+                color: white;
+                border: 1px solid black;
+            }
+
+
+/* main content section */
+    div.mainsection{
+        background-color: navy;
+        min-height: 500px;
+        width: 766px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+/* telephone number top mid section */
+        div.telnumber{
+            background-color: maroon;
+            width: 100%;
+            min-height: 50px;
+        }
+
+/* top mid section Clients and Servers */
+        div.topmid{
+            background-color: orangered;
+            width: 100%;
+            min-height: 350px;
+        }
+
+/* bottom part of the  main section "the big 3"*/
+        div.botmid{
+            background-color: mediumvioletred;
+            width: 100%;
+            min-height: 150px;
+        }
